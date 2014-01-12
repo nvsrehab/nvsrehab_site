@@ -1,0 +1,88 @@
+/* 
+    Document   : style_hao
+    Created on : Oct 12, 2013, 5:59:30 PM
+    Author     : johnspiger
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body
+{
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #FFFFFF 0%, #5665EF 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #FFFFFF 0%, #5665EF 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #FFFFFF 0%, #5665EF 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #5665EF));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #5665EF 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #5665EF 100%);
+
+    font-family:'Segoe UI';   	
+   	background-repeat:no-repeat;
+   	background-position: center bottom;
+}
+.block
+{
+background-color:#AAAEEF;
+}
+#header
+{
+background:rgba(255,255,255,0.0);
+}
+#zSlider .description li{
+	background-color:white;
+	color:blue;
+}
+#zSlider .description li .active
+{
+background-color:blue;
+color:white;
+}
+#new .excerpt .excerpt_title h4
+{
+color:#5665EF;
+}
+h1,h2,h3,h4,h5,h6,a, a:hover 
+{
+color:#5665EF;
+}
+.navbar .brand {
+	background:#E7E7E7;
+	
+}
+.navbar .brand a
+{
+color: #71729B;
+}
+
+.navbar .nav>li>a
+{
+
+color:#71729B;
+}
+.navbar .nav>li>a:hover {
+color: #71729B;
+}
+.navbar .nav li.dropdown.open>.dropdown-toggle, .navbar .nav li.dropdown.active>.dropdown-toggle, .navbar .nav li.dropdown.open.active>.dropdown-toggle,.navbar .nav>li>a:focus,.navbar .nav>li>a:hover{color:white;background:#71729B;}
+
+.navbar .nav li.dropdown>.dropdown-toggle .caret, .navbar .nav li.dropdown>a:hover .caret, .navbar .nav li.dropdown>a:focus .caret {
+border-top-color: #71729B;
+border-bottom-color: #71729B;
+}
+#header .dropdown-menu{margin:0;border:0;background:#71729B;padding:5px; color:white;}
+
+#header .dropdown-menu>li>a:hover,#header .dropdown-menu>li>a:focus,#header .dropdown-submenu:hover>a,#header .dropdown-submenu:focus>a {color:#71729B;background:#E7E7E7;filter:none;}
+
+#site-description p
+{
+color:#71729B;
+}

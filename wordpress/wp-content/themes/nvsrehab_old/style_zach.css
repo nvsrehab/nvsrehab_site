@@ -1,0 +1,65 @@
+/* 
+ Zach's style sheet
+*/
+
+
+.entry-meta { display: none; }
+
+.zbox {
+  width: 150px !important;
+
+  extends: outer;
+  border: 10px solid white;
+  border-radius: 30px;
+  color: white;
+  background-color: #AAAEEF;
+  float: left;
+  font-family: "Georgia";
+  font-size: 16pt;
+  margin: 15px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 250px;
+  height: 70px;
+  text-align: center;
+  opacity: 1; /* css standard */
+  filter: alpha(opacity=100); /* internet explorer */
+  display: inline;inline
+
+  
+}
+
+.inner-zbox {
+	font-size: 14px;
+	color: black;
+	background-color: white;
+	height: 65px;
+
+	
+	position: relative;
+
+	border-style: solid;
+	border-color: #AAAEEF;
+	border-radius: 20px;
+}
+
+.title {
+	extends: zbox;
+}
+
+#footer {
+	/*bottom: 0;*/
+	/*position: relative; */
+	/*width: 100%;*/
+
+}
+
+.content-two-columns-sidebar-left {
+	
+}
+
+
+body, html {
+	min-height: 100%;
+}

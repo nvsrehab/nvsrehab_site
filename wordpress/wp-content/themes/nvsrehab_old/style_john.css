@@ -1,0 +1,45 @@
+/* 
+  Style stuff by John
+*/
+
+#front_page_pre_footer {
+	clear: both;
+}
+
+#front_page_pre_footer #news {
+	display: block;
+	margin: 0;
+}
+
+#front_page_pre_footer #news span.excerpt {
+	display: block;
+	clear: left;
+	padding: 0;
+}
+
+#front_page_pre_footer #news .excerpt_thumb
+, #front_page_pre_footer #news .excerpt_title
+, #front_page_pre_footer #news .excerpt_body
+, #front_page_pre_footer #news h2 {
+	margin: 5px;
+	padding: 0;
+}
+
+#front_page_pre_footer #news .excerpt_thumb {
+	margin-top: 0;
+}
+
+#front_page_pre_footer .excerpt_thumb {
+	float: left;
+}
+
+#front_page_pre_footer #news
+,#pre_footer_links
+, #pre_footer_accreditation {
+	float: left;
+	width: 33%;
+	min-width: 250px;
+}
+
+
+

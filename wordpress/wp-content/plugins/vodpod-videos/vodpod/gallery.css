@@ -1,0 +1,230 @@
+.vp_gallery a {
+  color: #00ADEF !important;
+  text-decoration: none !important;
+}
+
+.vp_gallery {
+  width:696px;
+  color: #636466;
+  font-family: arial, verdana, sans-serif;
+  font-size: 11px;
+  padding:0px !important;
+  margin:0px !important;
+}
+  .vp_gallery * {
+    border:none !important;
+    background:none !important;
+    padding:0px !important;
+    margin:0px !important;
+  }
+  .vp_gallery .clear {clear:both;}
+  
+  .vp_gallery .vp_gallery_top {
+    background:url(http://vodpod.com/images/widget/top_696px.gif) no-repeat !important;
+    height:3px !important;
+    overflow:hidden !important;
+  }
+  .vp_gallery .vp_gallery_bottom {
+    background:url(http://vodpod.com/images/widget/bottom_696px.gif) no-repeat !important;
+    height:3px !important;
+  }
+  .vp_gallery .vp_header {
+    background:#f1f1f1 url(http://vodpod.com/images/widget/logo_14px.png) no-repeat 20px 12px !important;
+    font-size:12px;
+    height:20px;
+    padding:12px 0px 0px 45px !important;
+  }
+  .vp_gallery .vp_header a {
+    border:none !important;
+    text-decoration:none !important;
+  }
+  .vp_gallery .vp_footer {
+    background:#737373 !important;
+    font-size:11px;
+    color:#fff;
+    line-height:14px;
+    height:15px;
+    padding-top:3px !important;
+    padding-right:4px !important;
+  }
+    .vp_gallery .vp_footer .vp_logo {
+      float:left;
+      width:10px;
+      height:10px;
+      display:inline;
+      margin-top:2px !important;
+      margin-left:4px !important;
+      margin-right:4px !important;
+      padding:0px !important;
+      border:none !important;
+    }
+  .vp_gallery .vp_container {
+    background:#f1f1f1 !important;
+    border-style:solid !important;
+    border-color:#606060 !important;
+    border-width:0px 1px !important;
+    height:530px !important;
+    position:relative !important;
+    overflow:hidden !important;
+  }
+  .vp_gallery .vp_video_thumbs {
+    float:left;
+    display:inline;
+    margin-left:15px !important;
+    width:224px;
+    height:435px;
+  }
+    .vp_gallery .vp_video_thumbs .video_thumb {
+      float:left;
+      display:inline;
+      margin:5px !important;
+    }
+  .vp_gallery .vp_video_player {
+    float:right;
+    display:inline;
+    margin-right:29px !important;
+    margin-top:5px !important;
+    width:402px;
+    overflow:hidden;
+    background:#737373 !important;
+  }
+    .vp_gallery .vp_video_player .vp_video_title {
+      height:30px;
+      background:#737373 url(http://vodpod.com/images/widget/gallery_video_top.gif) no-repeat !important;
+      line-height:30px;
+      overflow:hidden;
+    }
+      .vp_gallery .vp_video_player .vp_video_title a {
+        font-size:12px;
+        color:#fff !important;
+        margin-left:20px !important;
+        border:none !important;
+        text-decoration:none !important;     
+      }
+    .vp_gallery .vp_video_player .vp_embed_holder {
+      height:336px;
+      border:1px solid #737373 !important;
+    }
+    .vp_gallery .vp_video_player .vp_metadata {
+      background:#f1f1f1 !important;
+    }
+      .vp_gallery .vp_video_player .vp_metadata .vp_video_description {
+        padding-top:10px !important;
+        margin-bottom:10px !important;
+        margin-left:10px !important;
+        height:25px;
+        overflow:hidden;
+      }
+      .vp_gallery .vp_video_player .vp_metadata .vp_video_links {
+        padding:10px !important;
+      }
+      .vp_gallery .vp_video_player .vp_metadata .vp_video_links a {
+        border:none !important;
+        text-decoration:none !important;
+        margin-right:10px !important;
+        font-weight:bold;
+      }
+      .vp_gallery .vp_video_player .vp_metadata .vp_video_views {
+        text-transform:uppercase;
+        color:#bbb;
+        font-weight:bold;
+        float:left;
+        padding-left:10px !important;
+      }
+      .vp_gallery .vp_video_player .vp_metadata .vp_video_source {  
+        text-transform:uppercase;
+        color:#bbb;
+        font-weight:bold;
+        float:left;
+      }
+      .vp_gallery .vp_video_player .vp_metadata .vp_video_date {  
+        text-transform:uppercase;
+        color:#bbb;
+        font-weight:bold;
+        float:right;
+      }
+      
+  .vp_gallery .vp_pagination {
+    width:224px;
+    padding-left:20px !important;
+    position:absolute !important;
+    bottom:20px !important;
+  }
+  .vp_gallery .vp_pagination a {
+    float:left;
+    display:inline;
+    margin:14px 47px !important;
+    border:none;
+  }
+  .vp_gallery .vp_pagination a.active {
+    display:block;
+  }
+  .vp_gallery .vp_pagination a.inactive {
+   visibility:hidden; 
+  }
+  .vp_gallery .vp_pagination a img {
+    padding:0px !important;
+    border:none;
+  }
+  .vp_gallery .vp_description {
+    float:left;
+    display:inline;
+    margin-left:10px !important;
+    height:40px;
+    width:480px;
+  }
+    
+/*
+Generic video thumbnail
+=========================== */
+.video_thumb {
+  width:100px;
+  height:75px;
+  position:relative;
+  overflow:hidden;
+  border:1px solid #777 !important;
+  cursor:pointer;
+}
+  .video_thumb img {
+    width:100%;
+    height:100%;
+    padding:0px !important;
+    border:none;
+  }
+
+.video_thumb .thumb_title_box {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 26px;
+  background: #000 !important;
+  color: white;
+  filter:alpha(opacity=50);
+  -moz-opacity:0.50;
+  opacity: 0.50;
+}
+
+.video_thumb .thumb_title {
+  position: absolute;
+  bottom:1px;
+  left:3px;
+  width:100%;
+  height:22px;
+  overflow:hidden;
+  line-height:11px;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+}
+  .video_thumb .thumb_title a {
+    color:#fff !important;
+  }
+  .video_thumb .thumb_title span.number {
+    color:#ccc;
+    height:20px;
+    padding:0px 2px !important;
+    margin-right:2px !important;
+    float:left;
+    display:inline;
+  }
