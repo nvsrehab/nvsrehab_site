@@ -1,0 +1,21 @@
+/*
+ Theme Name:     NVS Rehab Old
+ Description:    NVS Rehab Custom Theme
+ Author:         GiveCamp Team
+ Template:       zalive
+ Version:        1.0.0
+*/
+
+/* -------- parent theme sheet ------ */
+@import url('../zalive/style.css');
+
+/* -------- individual sheets ------- */
+
+@import url('style_john.css');
+@import url('style_radu.css');
+@import url('style_pete.css');
+@import url('style_owen.css');
+@import url('style_zach.css');
+@import url('folder_katheryn/style_katheryn.css');
+@import url('style_hao.css');
+/* --------- no further changes to this file ----- */

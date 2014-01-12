@@ -1,0 +1,72 @@
+/* 
+ Owen's style sheet
+*/
+
+
+.entry-content > p {
+  margin-bottom: 10px;
+}
+
+.block {
+  border: 10px solid white;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(115, 165, 62); 
+  float: left;
+  font-family: "Georgia";
+  font-size: 16pt;
+  margin: 15px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 320px;
+  text-align: center;
+  opacity: 1; /* css standard */
+  filter: alpha(opacity=100); /* internet explorer */
+}
+
+.block:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=60);  
+}
+
+.block > p, .block > ul {
+  font-size: 10pt;
+  margin-bottom: 5px;
+}
+
+.block > ul {
+  margin-top: 0px;
+  padding-left: 5px;
+}
+
+.block1 {
+  margin-left: 20px;
+}
+
+.owenbox {
+  width: 300px;
+  height: 20px;
+}
+
+img.aligncenter {
+  margin-bottom: 0px;
+}
+
+.owen {
+  float: left;
+}
+
+.button {
+  opacity: 1; /* css standard */
+  filter: alpha(opacity=100); /* internet explorer */
+}
+
+.button:hover {
+  opacity: 0.6; /* css standard */
+  filter: alpha(opacity=60); /* internet explorer */
+}
+
+.block li {
+text-align: left;
+}

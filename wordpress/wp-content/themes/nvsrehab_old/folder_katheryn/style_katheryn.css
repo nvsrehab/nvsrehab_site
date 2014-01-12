@@ -1,0 +1,41 @@
+/* 
+ Katheryn's style sheet
+*/
+h1, h2, h3, h4, h5, h6 {font-family: "PT Sans",sans-serif;  color:#71729b !important; /*#5665EF;*/}
+h1 { font-size: 1.6em !important; }
+h2 { font-size: 1.4em !important; }
+h3 { font-size: 1.1em !important; }
+h3.entry-title a { color:#71729b !important; }
+h4 { font-size: 1.1em !important; }
+p { font-family: "PT Sans",sans-serif; }
+a { font-family: "PT Sans",sans-serif; }
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container { width: 1024px !important;}
+#header { margin-bottom:0 !important; padding-bottom:0em !important; }
+.navbar .nav > li { width: 10.5em; text-align: center;}
+#searchboxli {    /*width: 30em !important;*/}
+.navbar .nav > li ul li { text-align:left !important;}
+.navbar .nav > li > a { padding: .5em .5em .5em .7em; line-height: 1.1em; font-size: 1.1em; }
+.content-two-columns-sidebar-left { background: #fff !important; }
+#sidebar h3.widget-title {color:transparent; background:transparent; font-size:0; line-height:0; }
+/* widget_primary_title */
+h1.brand { padding-right: 0em !important; }
+.navbar .brand { padding-right: 0em !important; }
+#content { margin-bottom:0em; }
+.tagline { padding-top:.6em; font-style:italic; font-size: 1.1em;}
+.tagline p { font-family: Georgia; } 
+.entry-content p { line-height: 1.4em !important; padding-left:1em; padding-right:1em; }
+.entry-content .block1 { margin-left: 3em; }
+.entry-content .block { width:250px !important; }
+.owenbox { width: 240px !important; height: 20px; }
+#news { display: table; margin: auto 0; margin-left: 50px; color:#71729b; }
+#news h2 { font-family: "PT Sans",sans-serif; font-weight: 400; line-height: 1.2em; font-size: 1.6em; color:#71729b !important; padding-bottom:.7em !important;}
+#news h4 { font-family: "PT Sans",sans-serif; font-weight: 700; line-height: 1.2em; margin-top: 0em; font-size: 1.1em; color:#71729b;}
+#news p { font-family: "PT Sans",sans-serif; }
+#news span.excerpt { vertical-align: top; display: inline; padding-right:3em; /*position:relative;*/}
+#news span.excerpt img { display:inline; width:100px; vertical-align:top;}
+#news span.excerpt div {display:inline-block; vertical-align:top; margin-left:1em; /*position:absolute; left:110px;*/   }
+#news span.excerpt div p {  width:20em; }
+#news .excerpt h2.excerpt_title {  color:#71729b; }
+#news .excerpt .excerpt_body {  }
+.footer_image { height:50px; padding-left:1em; }
+#footer {font-family: "PT Sans",sans-serif !important; font-size:12px !important; line-height: 16px !important;}

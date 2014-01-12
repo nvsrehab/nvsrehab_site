@@ -1,0 +1,81 @@
+/* 
+ Pete's style sheet
+*/
+
+.nvslogo {
+	float: left;
+	display: inline-block;
+	height:60px;
+}
+
+.nvstitle {
+	font-size:22px;
+}
+
+.brand {
+	padding-left: 30% !important;
+	width: 40%;
+	text-align: left;
+}
+
+.nav {
+	padding-left: 1% !important;
+}
+
+.menubardonate {
+	padding-top: 15px;
+	padding-left: 75px;
+	height: 30px;
+}
+
+#searchbox button {
+	background: #E37001;
+}
+
+#searchboxli {
+	width: 250px;
+}
+
+#searchbox {
+	margin-top: 0px;
+}
+
+#s {
+	width: 120px;
+}
+
+#front_page_pre_footer {
+	margin: 0 auto;
+	width: 850px;
+}
+
+.wp-post-image {
+	padding: 0px 5px 15px 0px !important;
+	width: 60px;
+}
+
+.excerpt_body {
+	line-height: 15px;
+	font-size: 12px;
+}
+
+#front_page_pre_footer #news, #pre_footer_links, #pre_footer_accreditation {
+	min-width: 0px;
+}
+
+#news {
+	width: 33%;
+}
+
+#pre_footer_links {
+	width: 35%;
+}
+
+#pre_footer_accreditation {
+	width: 10%;
+}
+
+#accred1, #accred2 {
+	width: 80px;
+}
+html{}
